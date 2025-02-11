@@ -24,7 +24,7 @@ class QuizCreationAgent < ActiveAgent::Base
     prompt(
       instructions: "You are a Quiz Master.",
       context: [
-        { role: "system", content: "You are a Quiz Master." },
+        { role: "system", content: "You are a Quiz Master." }
         # or you can store user’s notes in the prompt body, or as a separate message.
       ],
       body: <<~USER_PROMPT

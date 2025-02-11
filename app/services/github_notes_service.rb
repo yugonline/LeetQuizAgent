@@ -1,11 +1,11 @@
 class GithubNotesService
   include HTTParty
-  base_uri 'https://api.github.com'
+  base_uri "https://api.github.com"
 
   def initialize(repo:, token: nil)
     @repo = repo # e.g. "YourName/obsidian-notes"
     @headers = {
-      "User-Agent" => "LeetQuizAgent",
+      "User-Agent" => "LeetQuizAgent"
     }
     # If private repo, add Authorization
     @headers["Authorization"] = "Bearer #{token}" if token

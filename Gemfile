@@ -23,6 +23,9 @@ gem "twilio-ruby", "~> 7.4"
 # LLM orchestrations with ActiveAgent
 gem "activeagent", "~> 0.1.1"  # (or your chosen version)
 
+# Access Google Cloud Storage
+gem "google-cloud-storage", "~> 1.26"
+
 # For GitHub integration (option A: we can just use HTTParty or faraday)
 gem "httparty", "~> 0.18"
 # or gem 'octokit' if you want the official GitHub client
@@ -49,5 +52,3 @@ group :development, :test do
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
 end
-
-
