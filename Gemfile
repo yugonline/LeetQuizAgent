@@ -24,7 +24,7 @@ gem "twilio-ruby", "~> 7.4"
 gem "activeagent", "~> 0.1.1"  # (or your chosen version)
 
 # Access Google Cloud Storage
-gem "google-cloud-storage", "~> 1.26"
+gem "google-cloud-storage", "~> 1.55"
 
 # For GitHub integration (option A: we can just use HTTParty or faraday)
 gem "httparty", "~> 0.18"

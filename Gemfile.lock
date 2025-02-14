@@ -129,12 +129,12 @@ GEM
     google-cloud-env (2.2.1)
       faraday (>= 1.0, < 3.a)
     google-cloud-errors (1.4.0)
-    google-cloud-storage (1.54.0)
+    google-cloud-storage (1.55.0)
       addressable (~> 2.8)
       digest-crc (~> 0.4)
       google-apis-core (~> 0.13)
       google-apis-iamcredentials_v1 (~> 0.18)
-      google-apis-storage_v1 (~> 0.38)
+      google-apis-storage_v1 (>= 0.42)
       google-cloud-core (~> 1.6)
       googleauth (~> 1.9)
       mini_mime (~> 1.0)
@@ -158,11 +158,11 @@ GEM
     irb (1.14.3)
       rdoc (>= 4.0.0)
       reline (>= 0.4.2)
-    json (2.9.1)
+    json (2.10.1)
     jwt (2.10.1)
       base64
     language_server-protocol (3.17.0.3)
-    logger (1.6.5)
+    logger (1.6.6)
     loofah (2.24.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
@@ -352,7 +352,7 @@ DEPENDENCIES
   bootsnap
   brakeman
   debug
-  google-cloud-storage (~> 1.26)
+  google-cloud-storage (~> 1.55)
   httparty (~> 0.18)
   puma (>= 5.0)
   rails (~> 7.2.2, >= 7.2.2.1)
