@@ -21,7 +21,7 @@ gem "puma", ">= 5.0"
 gem "twilio-ruby", "~> 7.4"
 
 # LLM orchestrations with ActiveAgent
-gem "activeagent", "~> 0.1.1"  # (or your chosen version)
+gem "activeagent", "~> 0.2.5"  # (or your chosen version)
 
 # Access Google Cloud Storage
 gem "google-cloud-storage", "~> 1.26"
