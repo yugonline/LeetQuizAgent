@@ -18,7 +18,7 @@ gem "puma", ">= 5.0"
 # gem "bcrypt", "~> 3.1.7"
 
 # Twilio for WhatsApp
-gem "twilio-ruby", "~> 7.4"
+gem "twilio-ruby", "~> 7.5"
 
 # LLM orchestrations with ActiveAgent
 gem "activeagent", "~> 0.1.1"  # (or your chosen version)
