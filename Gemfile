@@ -27,7 +27,7 @@ gem "activeagent", "~> 0.1.1"  # (or your chosen version)
 gem "google-cloud-storage", "~> 1.26"
 
 # For GitHub integration (option A: we can just use HTTParty or faraday)
-gem "httparty", "~> 0.18"
+gem "httparty", "~> 0.23"
 # or gem 'octokit' if you want the official GitHub client
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
